@@ -1,0 +1,156 @@
+# Paradox+ Tweaks
+
+# GPU Tweaks
+debug.composition.type=gpu
+debug.egl.hw=1
+debug.enabletr=true
+debug.performance.tuning=1
+debug.sf.hw=1
+dev.pm.dyn_samplingrate=1
+hw3d.force=1
+hwui.disable_vsync=true
+hwui.render_dirty_regions=false
+persist.sys.composition.type=gpu
+persist.sys.ui.hw=1
+ro.config.enable.hw_accel=true
+ro.product.gpu.driver=1
+ro.fb.mode=1
+ro.vold.umsdirtyratio=50
+ro.sf.compbypass.enable=0
+video.accelerate.hw=1
+
+#Audio tweaks
+persist.audio.vr.enable=true
+
+#Scrollling tweaks
+persist.sys.scrollingcache=1
+vendor.pref.gestureflingboost.enable=true
+
+# Ram tweaks
+ro.config.fha_enable=true
+ro.sys.fw.bg_apps_limit=32
+ro.config.dha_cached_max=16
+ro.config.dha_empty_max=42
+ro.config.dha_empty_init=32
+ro.config.dha_lmk_scale=0.545
+ro.config.dha_th_rate=2.3
+ro.config.sdha_apps_bg_max=64
+ro.config.sdha_apps_bg_min=8
+
+#Call tweaks
+ro.telephony.call_ring.delay=0
+
+#Camera2 API and tunings
+persist.camera.HAL3.enabled=1
+vidc.debug.perf.mode=2
+vidc.enc.dcvs.extra-buff-count=2
+persist.camera.llnoise=1
+persist.camera.tnr_cds=1
+persist.camera.tnr.snapshot=1
+persist.camera.tnr.video=1
+persist.camera.tnr.preview=1
+persist.camera.opt.livepic=1
+
+#Network Tweaks
+ro.ril.enable.dtm=1
+net.ipv4.tcp_ecn=0
+net.ipv4.route.flush=1
+net.ipv4.tcp_rfc1337=1
+net.ipv4.ip_no_pmtu_disc=0
+net.ipv4.tcp_sack=1
+net.ipv4.tcp_fack=1
+net.ipv4.tcp_window_scaling=1
+net.ipv4.tcp_timestamps=1
+net.ipv4.tcp_rmem=4096 39000 187000
+net.ipv4.tcp_wmem=4096 39000 187000
+net.ipv4.tcp_mem=187000 187000 187000
+net.ipv4.tcp_no_metrics_save=1
+net.ipv4.tcp_moderate_rcvbuf=1
+net.ipv6.tcp_ecn=0
+net.ipv6.route.flush=1
+net.ipv6.tcp_rfc1337=1
+net.ipv6.ip_no_pmtu_disc=0
+net.ipv6.tcp_sack=1
+net.ipv6.tcp_fack=1
+net.ipv6.tcp_window_scaling=1
+net.ipv6.tcp_timestamps=1
+net.ipv6.tcp_rmem=4096 39000 187000
+net.ipv6.tcp_wmem=4096 39000 187000
+net.ipv6.tcp_mem=187000 187000 187000
+net.ipv6.tcp_no_metrics_save=1
+net.ipv6.tcp_moderate_rcvbuf=1
+net.tethering.noprovisioning=true
+
+#Power tweaks
+persist.sys.shutdown.mode=hibernate
+ro.config.hw_quickpoweron=true
+ro.config.hw_power_saving=true
+persist.radio.add_power_save=1
+persist.hvdcp.allow_opti=1
+ro.sys.fw.dex2oat_thread_count=2
+pm.sleep_mode=1
+persist.radio.add_power_save=1
+#power_supply.wakeup=enable
+profiler.force_disable_ulog=true
+profiler.force_disable_err_rpt=true
+ro.ril.disable.power.collapse=0
+ro.ril.power_collapse=1
+dalvik.vm.dexopt-flags=m=v,o=y
+persist.sys.purgeable_assets=1
+ro.bluetooth.wipower=true
+perstist.power.usetwilightadj=true
+
+#Signal
+persist.cust.tel.eons=1
+ro.fast.dormancy=1
+ro.config.hw_fast_dormancy=1
+ro.config.combined_signal=true
+
+#Image Quality
+ro.media.dec.jpeg.memcap=16000000
+ro.media.enc.hprof.vid.bps=16000000
+ro.media.enc.hprof.vid.fps=60
+ro.media.enc.jpeg.quality=100
+ro.media.dec.aud.wma.enabled=1
+ro.media.dec.vid.wmv.enabled=1
+ro.media.cam.preview.fps=30
+ro.media.codec_priority_for_thumb=hw
+persist.sys.use_dithering=1
+ro.media.enc.jpeg.quality=100
+windowsmgr.max_events_per_sec=3000
+
+#Qualcomm specific
+debug.qc.hardware=true
+com.qc.hardware=true
+ro.qcom.ad=1
+ro.qcom.ad.calib.data=/system/etc/calib.cfg
+
+#WiFi calling
+persist.data.iwlan.enable=true
+persist.dbg.wfc_avail_ovr=1
+
+# Data Power Manager (DPM)
+persist.dpm.feature=7
+persist.env.fastdorm.enabled=true
+persist.sys.dpmd.nsrm=3
+
+# Dex2oat limits
+dalvik.vm.dex2oat-flags=--no-watch-dog
+dalvik.vm.boot-dex2oat-threads=8
+dalvik.vm.dex2oat-threads=4
+dalvik.vm.image-dex2oat-threads=2
+dalvik.vm.bg-dex2oat-threads=2
+dalvik.vm.image-dex2oat-filter=everything
+
+#CPU Try
+ro.core_ctl_min_cpu=0
+
+#ARCore
+ro.config.calibration_cad=/system/etc/calibration_cad.xml
+
+#General tweaks
+ro.com.google.ime.theme_id=5
+ro.opa.eligible_device=true
+ro.wallpapers_loc_request_suw=true
+
+# Paradox+ Tweaks end
