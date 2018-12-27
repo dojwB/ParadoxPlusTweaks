@@ -1,16 +1,16 @@
 # Paradox+ Tweaks with Unity Installer
-Module that contains fixes for various problems and some magic. Aims to make device better with audio, video and performance tweaks.
+Module that contains fixes for various problems and some magic for Xiaomi Mi 5 family on Androi Pie. Aims to make device better with audio, video and performance tweaks.
 
 This mod contains thermal engine config and other files for Google play service doze.
 
 Other devs are allowed to include this tweaks in their kernel or ROM only with proper credits or else those files will be removed. 
 
-And credit goes to;
-@aka_vkl for creating this module
-@dojwB for making various additions and purifying this module
-@topjohnwu for creating Magisk
-@ahrion and @Zackptg5for creating Unity Installer
-@eymenygt for testing it without a doubt
+#### And credit goes to;
+* @aka_vkl for creating this module
+* @dojwB for making various additions and purifying this module
+* @topjohnwu for creating Magisk
+* @ahrion and @Zackptg5for creating Unity Installer
+* @eymenygt for testing it without a doubt
 
 
 ## Features
@@ -20,6 +20,17 @@ And credit goes to;
 * Patches audio policies for better audio effect compatibility
 * Adds goodies from Nexus and Pixel devices
 * And more...
+
+
+## FAQ
+* **Is this gonna work with XYZ rom?**
+I don't know, maybe try it out and give me a heads-up too.
+
+* **How do I exit the bootlogo hell?**
+Easy. Boot to recovery and flash the zip again.
+
+* **Can you fix XYZ problem?**
+If you find a problem that's not randomly ocurred please give me detailed device information and tell how to reproduce that problem.
 
 
 ## Changelog
