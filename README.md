@@ -1,4 +1,4 @@
-# Paradox+ Tweaks with UNiTY
+# Paradox+ Tweaks with Unity Installer
 Module that contains fixes for various problems and some magic. Aims to make device better with audio, video and performance tweaks.
 
 This mod contains thermal engine config and other files for Google play service doze.
