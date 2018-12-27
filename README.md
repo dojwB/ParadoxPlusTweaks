@@ -11,36 +11,39 @@ And credit goes to;
 @topjohnwu for creating Magisk
 @ahrion and @Zackptg5for creating Unity Installer
 @eymenygt for testing it without a doubt
-# Features
-- Adds files needed for ARCore
-- Adds new frameworks that may needed for 3rd party apps.
-- Modifies thermal configs to delay thermal throttling
-- Patches audio policies for better audio effect compatibility
-- Adds goodies from Nexus and Pixel devices
-- And more...
 
-# Changelog
+
+## Features
+* Adds files needed for ARCore
+* Adds new frameworks that may needed for 3rd party apps.
+* Modifies thermal configs to delay thermal throttling
+* Patches audio policies for better audio effect compatibility
+* Adds goodies from Nexus and Pixel devices
+* And more...
+
+
+## Changelog
 Build 16 (Astrantia)
-- General tweaks for first ever public release.
+* General tweaks for first ever public release.
 
 Build 14 (Aster 4)
-- LoopySmoothness script removed because it's outdated.
-- Removed cache cleaning in every boot.
-- Some RAM tweaks disabled due to unreliabilities.
-- Config script changes.
-- Added GPU tweaks. 
-- Changes in camera tweaks.
-- New signal tweaks added.
+* LoopySmoothness script removed because it's outdated.
+* Removed cache cleaning in every boot.
+* Some RAM tweaks disabled due to unreliabilities.
+* Config script changes.
+* Added GPU tweaks. 
+* Changes in camera tweaks.
+* New signal tweaks added.
 
 Build 6 (Aster 3)
-- Added new signal and power tweaks.
-- Removed Wi-Fi search interval tweak.
+* Added new signal and power tweaks.
+* Removed Wi-Fi search interval tweak.
 
 Build 5 (Aster 2)
-- Some network tweaks removed due to unstableness.
-- Netflix tweaks removed.
-- Some delay tweaks removed.
-- Some tweaks removed due to performance improvements.
+* Some network tweaks removed due to unstableness.
+* Netflix tweaks removed.
+* Some delay tweaks removed.
+* Some tweaks removed for performance improvements.
 
 Build 1 (Aster)
-- First release.
+* First release.
