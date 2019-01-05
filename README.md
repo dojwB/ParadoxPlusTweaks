@@ -30,7 +30,7 @@ I don't know, maybe try it out and give me a heads-up too.
 Easy. Boot to recovery and flash the zip again.
 
 * **Can you fix XYZ problem?**
-If you find a problem that's not randomly ocurred please give me detailed device information and tell how to reproduce that problem.
+If you find a problem that's not randomly occurred please give me detailed device information and tell how to reproduce that problem.
 
 
 ## Changelog
