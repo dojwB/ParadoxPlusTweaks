@@ -36,6 +36,7 @@ If you find a problem that's not randomly ocurred please give me detailed device
 ## Changelog
 Build x (Astrantia 2)
 * LMK tweaks removed.
+* Upgraded to Unity 2.2
 
 Build 16 (Astrantia)
 * General tweaks for first ever public release.
