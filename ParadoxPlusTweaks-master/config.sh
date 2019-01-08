@@ -27,7 +27,7 @@
 AUTOMOUNT=true
 
 # Set to true if you need to load system.prop
-PROPFILE=false
+PROPFILE=true
 
 # Set to true if you need post-fs-data script
 POSTFSDATA=false
@@ -41,26 +41,31 @@ LATESTARTSERVICE=false
 # Uncomment DYNAMICOREO if you want libs installed to vendor for oreo and newer and system for anything older
 # Uncomment DYNAMICAPP if you want anything in $INSTALLER/system/app to be installed to the optimal app directory (/system/priv-app if it exists, /system/app otherwise)
 # Uncomment SYSOVERRIDE if you want the mod to always be installed to system (even on magisk)
-# Uncomment DEBUG if you want full debug logs (saved to SDCARD)
+# Uncomment RAMDISK if you have ramdisk modifications. If you only want ramdisk patching as part of a conditional, just keep this commented out and set RAMDISK=true in that conditional.
+# Uncomment DEBUG if you want full debug logs (saved to SDCARD if in twrp, part of regular log if in magisk manager (user will need to save log after flashing)
+<<<<<<< HEAD
+<<<<<<< HEAD
 MINAPI=21
 #MAXAPI=25
+=======
+MINAPI=28
+MAXAPI=28
+>>>>>>> master
+=======
+MINAPI=28
+MAXAPI=28
+>>>>>>> 762fcba4fe024dcff51aced1616130a93241aff1
 #SEPOLICY=true
 #SYSOVERRIDE=true
 #DYNAMICOREO=true
 #DYNAMICAPP=true
+#RAMDISK=true
 #DEBUG=true
 
-# Custom Variables for Install AND Uninstall - Keep everything within this function - runs before uninstall/install
+# Custom Variables for Install AND Uninstall - Keep everything within this function
 unity_custom() {
   :
 }
-
-# Things that ONLY run during an upgrade (occurs after unity_custom) - you probably won't need this
-# Note that the normal upgrade process is just an uninstall followed by an install
-unity_upgrade() {
-  :
-}
-
 
 # Custom Functions for Install AND Uninstall - You can put them here
 
