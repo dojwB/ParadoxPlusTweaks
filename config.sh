@@ -27,13 +27,13 @@
 AUTOMOUNT=true
 
 # Set to true if you need to load system.prop
-PROPFILE=false
+PROPFILE=true
 
 # Set to true if you need post-fs-data script
 POSTFSDATA=false
 
 # Set to true if you need late_start service script
-LATESTARTSERVICE=false
+LATESTARTSERVICE=true
 
 # Unity Variables
 # Uncomment and change 'MINAPI' and 'MAXAPI' to the minimum and maxium android version for your mod (note that unity's minapi is 21 (lollipop) due to bash and magisk binaries)
@@ -42,8 +42,8 @@ LATESTARTSERVICE=false
 # Uncomment DYNAMICAPP if you want anything in $INSTALLER/system/app to be installed to the optimal app directory (/system/priv-app if it exists, /system/app otherwise)
 # Uncomment SYSOVERRIDE if you want the mod to always be installed to system (even on magisk)
 # Uncomment DEBUG if you want full debug logs (saved to SDCARD)
-MINAPI=21
-#MAXAPI=25
+MINAPI=27
+MAXAPI=28
 #SEPOLICY=true
 #SYSOVERRIDE=true
 #DYNAMICOREO=true
