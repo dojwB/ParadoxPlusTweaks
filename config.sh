@@ -48,11 +48,35 @@ MAXAPI=28
 #SYSOVERRIDE=true
 #DYNAMICOREO=true
 #DYNAMICAPP=true
-#DEBUG=true
+DEBUG=true
 
 # Custom Variables for Install AND Uninstall - Keep everything within this function - runs before uninstall/install
 unity_custom() {
-  :
+
+GEMINI=$(grep "ro.product.device=gemini" $SYS/build.prop)
+CAPRICORN=$(grep "ro.product.device=capricorn" $SYS/build.prop)
+NATRIUM=$(grep "ro.product.device=natrium" $SYS/build.prop)
+
+APILEVEL=$(grep_prop ro.build.version.sdk $SYS/build.prop)
+
+# // OLD LOGIC
+#BPROP=$SYS/build.prop
+
+# // OLD LOGIC
+#BPROP="/system/build.prop $VEN/build.prop";
+#
+#OREO=$INSTALLER/custom/Oreo
+#PIE=$INSTALLER/custom/Pie
+#MIUI=$INSTALLER/custom/MIUI
+#
+#fi
+#GEMINI=$(grep "ro.product.device=gemini")
+#CAPRICORN=$(grep "ro.product.device=capricorn")
+#NATRIUM=$(grep "ro.product.device=natrium")
+#
+#API26=$(grep "ro.build.version.sdk=26" $BPROP)
+#API27=$(grep "ro.build.version.sdk=27" $BPROP)
+#API28=$(grep "ro.build.version.sdk=28" $BPROP)
 }
 
 # Things that ONLY run during an upgrade (occurs after unity_custom) - you probably won't need this
