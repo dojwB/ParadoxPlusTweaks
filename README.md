@@ -32,6 +32,11 @@ If you find a problem that's not randomly occurred please give me detailed devic
 
 
 ## Changelog
+Build x (x)
+* Dynamic installer that enables MIUI and AOSP Oreo support
+* Minor tweaks/changes/fixes
+* Upgraded to Unity 3.0
+
 Build 18 (Astrantia 2)
 * LMK tweaks removed.
 * Upgraded to Unity 2.2
