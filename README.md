@@ -13,10 +13,12 @@ Other devs are allowed to include this tweaks in their kernel or ROM only with p
 * And more...
 
 #### Supported Devices
-* Xiaomi Mi 5
-* Xiaomi Mi 5s
-* Xiaomi Mi 5s Plus
+* Xiaomi Mi 5 **
+* Xiaomi Mi 5s **
+* Xiaomi Mi 5s Plus **
 * *(Partially)* Other Snapdragon 820/821 devices
+
+** *Supports MIUI Oreo, AOSP Oreo and AOSP Pie*
 
 ## FAQ
 * **Is this gonna work with XYZ rom?**
@@ -32,6 +34,7 @@ If you find a problem that's not randomly occurred please give me detailed devic
 ## Changelog
 Build 52 (Begonia)
 * Dynamic installer that enables MIUI and AOSP Oreo support
+* Universal rollout
 * Minor tweaks/changes/fixes
 * Upgraded to Unity 3.1
 
