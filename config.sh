@@ -52,7 +52,7 @@ MAXAPI=28
 #SYSOVERRIDE=true
 #DYNAMICOREO=true
 #DYNAMICAPP=true
-DEBUG=true
+#DEBUG=true
 
 # Custom Variables for Install AND Uninstall - Keep everything within this function - runs before uninstall/install
 unity_custom() {
