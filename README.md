@@ -1,24 +1,22 @@
 # Paradox+ Tweaks with Unity Installer
-Module that contains fixes for various problems and some magic for Xiaomi Mi 5 family on Androi Pie. Aims to make device better with audio, video and performance tweaks.
+Module that contains fixes for various problems and some magic for Snapdragon 820/821  devices on Android 8, 8.1 and 9. Aims to make device feel better with audio, video and performance tweaks.
 
 Other devs are allowed to include this tweaks in their kernel or ROM only with proper credits or else those files will be removed.
 
-#### And credit goes to;
-* @aka_vkl for creating this module
-* @dojwB for making various additions and purifying this module
-* @topjohnwu for creating Magisk
-* @ahrion and @Zackptg5for creating Unity Installer
-* @eymenygt for testing it without a doubt
-
-
 ## Features
+* Supports multiple devices
 * Adds files needed for ARCore
-* Adds new frameworks that may needed for 3rd party apps.
-* Modifies thermal configs to delay thermal throttling
+* Adds new frameworks that may needed for 3rd party apps
+* Modifies thermal configs to delay thermal throttling **Only on fully supported devices*
 * Patches audio policies for better audio effect compatibility
 * Adds goodies from Nexus and Pixel devices
 * And more...
 
+#### Supported Devices
+* Xiaomi Mi 5
+* Xiaomi Mi 5s
+* Xiaomi Mi 5s Plus
+* *(Partially)* Other Snapdragon 820/821 devices
 
 ## FAQ
 * **Is this gonna work with XYZ rom?**
@@ -65,3 +63,11 @@ Build 5 (Aster 2)
 
 Build 1 (Aster)
 * First release.
+
+
+# And credit goes to;
+* @aka_vkl for creating this module
+* @dojwB for making various additions and purifying this module
+* @topjohnwu for creating Magisk
+* @ahrion and @Zackptg5for creating Unity Installer
+* @eymenygt for testing it without a doubt
