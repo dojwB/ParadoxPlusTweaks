@@ -6,7 +6,7 @@ Other devs are allowed to include this tweaks in their kernel or ROM only with p
 ## Features
 * Supports multiple devices
 * Adds files needed for ARCore
-* Adds new frameworks that may needed for 3rd party apps
+* Adds new frameworks that may be needed for 3rd party apps
 * Modifies thermal configs to delay thermal throttling **Only on fully supported devices*
 * Patches audio policies for better audio effect compatibility
 * Adds goodies from Nexus and Pixel devices
