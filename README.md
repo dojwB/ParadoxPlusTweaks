@@ -32,7 +32,7 @@ If you find a problem that's not randomly occurred please give me detailed devic
 
 
 ## Changelog
-Build x (x)
+Build 52 (Begonia)
 * Dynamic installer that enables MIUI and AOSP Oreo support
 * Minor tweaks/changes/fixes
 * Upgraded to Unity 3.1
