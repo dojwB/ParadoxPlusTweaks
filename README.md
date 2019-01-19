@@ -1,8 +1,6 @@
 # Paradox+ Tweaks with Unity Installer
 Module that contains fixes for various problems and some magic for Xiaomi Mi 5 family on Androi Pie. Aims to make device better with audio, video and performance tweaks.
 
-This mod contains thermal engine config and other files for Google play service doze.
-
 Other devs are allowed to include this tweaks in their kernel or ROM only with proper credits or else those files will be removed.
 
 #### And credit goes to;
@@ -34,6 +32,11 @@ If you find a problem that's not randomly occurred please give me detailed devic
 
 
 ## Changelog
+Build 52 (Begonia)
+* Dynamic installer that enables MIUI and AOSP Oreo support
+* Minor tweaks/changes/fixes
+* Upgraded to Unity 3.1
+
 Build 18 (Astrantia 2)
 * LMK tweaks removed.
 * Upgraded to Unity 2.2
